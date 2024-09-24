@@ -1,0 +1,28 @@
+Product-Price-Comparison-Bard-API
+This is a test Python application using the open source Google Bard API Library that allows a user to upload a csv file of products and the lowest price of each product is prompted using the Bard API, finally the filtered results are returned which include the price and site link.
+
+price comparison
+
+The open source Bard-API created by Antonio Cheong, Daniel Park can be found here:
+
+https://github.com/dsdanielpark/Bard-API/tree/main
+
+Instructions on Usage
+Clone or Download repository
+
+You will have to replace (Line 8) the "XXXXX" with your __Secure-1PSID cookie
+
+image
+
+Cookie Instruction
+Visit https://bard.google.com/
+F12 for console
+Session: Application → Cookies → Copy the value of __Secure-1PSID cookie.
+Paste the value in the location mentioned at step 2
+Edit Prompt for Localisation
+This script was created for the Sri lankan market by mentioning specifically the country in the prompt, you can change the prompt on Line 29
+
+image
+
+CSV File Format I've used a format for the CSV file as below
+image
